@@ -21,6 +21,8 @@ describe("Devins Solo Capstone Online Store Project", () => {
         await devin.driver.sleep(3000)
         await devin.click(devin.cartBag)
         await devin.click(devin.deleteBtnOne)
+        await devin.driver.sleep(3000)
+        await devin.click(devin.deleteBtnOne)
         await devin.click(devin.homeBtn)
         await devin.driver.sleep(3000)
         await devin.click(devin.contactBtn)
